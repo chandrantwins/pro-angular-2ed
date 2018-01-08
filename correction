@@ -1,0 +1,11 @@
+Page No 10:
+npm run typings -- install dt ~ core-js --save –global
+npm run typings -- install dt ~ node --save --global
+
+should be replaced with
+
+first command
+npm run typings
+
+typings install dt~core-js --save -–global
+typings install dt~node --save --global
